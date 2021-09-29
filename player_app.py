@@ -98,7 +98,7 @@ lift_threshold = config_col_right.slider("Badge threshold for lift badge:", 0.0,
                                          help="Players with higher lift value than this threshold will get "
                                               "an appropriate badge.")
 player_skills = []
-MODE = 'images'
+MODE = 'text'
 for skill in SKILLS:
     threshold = lift_threshold if skill not in () else percentile_threshold
     if skill in [COLUMNS.XA, COLUMNS.DRIBBLE_WON]:

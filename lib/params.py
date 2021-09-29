@@ -53,8 +53,8 @@ class CONSTANTS:
     ON_PITCH_FONT_SIZE = 6
 
     # Backgrounds
-    PITCH_LAB_BACKGROUND = os.path.join(DATA, 'backgrounds', 'pitch_lab.png')
-    PITCH_BACKGROUND = os.path.join(DATA, 'backgrounds', 'pitch.png')
+    PITCH_LAB_BACKGROUND = os.path.join(DATA, 'pics', 'pitch_lab.png')
+    PITCH_BACKGROUND = os.path.join(DATA, 'pics', 'pitch.png')
 
     # Player placeholder (shown in the UI in case the player does not have an image in PATHS.PLAYERS_IMAGES
     PLAYER_IMAGE_PLACEHOLDER = "player_placeholder"

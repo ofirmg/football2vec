@@ -1,8 +1,7 @@
 """
 Created on September 5 2021
 
-This module covers skill analysis figures presented in "Measuring and Visualizing Football Players' Skills",
-posted on Towards Data Science.
+This module covers skill analysis figures presented in "TBA", posted on Towards Data Science.
 
 @author: Ofir Magdaci (@Magdaci)
 

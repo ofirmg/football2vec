@@ -1,15 +1,16 @@
 # Football2Vec
-[!open-source]<img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103">
-[!Football2Vec]<img src="https://pbs.twimg.com/profile_banners/57356687/1630479357">
+<img alt="open-source" src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103">
+<img alt="Football2Vec" src="https://pbs.twimg.com/profile_banners/57356687/1630479357">
 
-[!Number of files]<img src="https://img.shields.io/github/directory-file-count/ofirmg/football2vec">
-[!pip status]<img src="https://img.shields.io/pypi/status/football2vec">
-[!pip release]<img src="https://img.shields.io/pypi/v/football2vec">
-[!latest release]<img src="https://img.shields.io/github/v/release/ofirmg/football2vec">
+<img alt="Number of files" src="https://img.shields.io/github/directory-file-count/ofirmg/football2vec">
+<img alt="pip status" src="https://img.shields.io/pypi/status/football2vec">
+<img alt="pip release" src="https://img.shields.io/pypi/v/football2vec">
+<img alt="latest release" src="https://img.shields.io/github/v/release/ofirmg/football2vec">
 
-This football analytics package is based on a series of Towards Data Science articles by <a href="https://medium.com/@ofirmagdaci">Ofir Magdaci:</a>
+This football analytics package is based on a series of <a href="https://medium.com/@ofirmagdaci">Towards Data Science articles</a> by <a href="www.magdaci.com">Ofir Magdaci:</a>
 1. <a href="https://towardsdatascience.com/embedding-the-language-of-football-using-nlp-e52dc153afa6">Embedding the Language of Football Using NLP</a> 
 2. <a href="https://towardsdatascience.com/a-deep-dive-into-the-language-of-football-2a2984b6bd21?">A Deep Dive into the Language of Football</a>
+3. <a href="">TBA</a>
 
 Using this package, you can to download pre-trained models or run and create your own.
 
@@ -70,15 +71,15 @@ params.py:
 - `CONSTANTS.HARD_XG` & `CONSTANTS.EASY_XG` - define the 'easy' and 'hard' probabilities thresholds for skill evaluation and the UI.
 
 ### Running times
-Total run time: ~106 minutes
-- Total run time for `build_data_objects()`: ~76 minutes
-- Total run time for `build_language_models()`: ~30 minutes<br>
+Total run time: 106 minutes
+- Total run time for `build_data_objects()`: 76 minutes
+- Total run time for `build_language_models()`: 30 minutes<br>
 
-Machine specs:
-- Machine: x86_64
-- Machine platform macOS-10.15.7
+With much older MacBook Pro (Retina, 15-inch, Late 2013):
 - Machine processor i386
-
+Total run time: 437 minutes
+Total run time for build_data_objects: 108 minutes
+Total run time for build_language_models: 329 minutes
 
 ## Running the Streamlit UI
 To run the Streamlit UI, open a terminal/cmd window in the project directory and run:
@@ -167,14 +168,14 @@ similarities, and creating players' variations:
 1. *ActionAnalogies*: an object that allows actions analogies using analogies equations: Word A1 → Word A2 ~ Word B1 → 
 Word B2. <a href="https://towardsdatascience.com/a-deep-dive-into-the-language-of-football-2a2984b6bd21#744c">Read more 
 here </a>.<br>An example for pass direction analogy:
-[!Pass direction]<img src="https://miro.medium.com/max/1400/1*4quayQwivRb6jru_P7JxcQ.png">
+<img alt="Pass direction" src="https://miro.medium.com/max/1400/1*4quayQwivRb6jru_P7JxcQ.png">
 <em>Illustrative analogy plot for learning pass direction. B1/2/3 are the best actions to fit the analogy equation: 
 A - A’ + B’ =?. Solid lines represent A or B, while dashed lines represent A’ or B’. Green colors are for A, A’, reds 
 for B, B’. The pass distance (short/med/long) is represented by the arrow length. Here, A’ is the same pass as A, but 
 with the opposite direction (left). B’ is the same as A’ from one position behind. B1/2 are mirrored passes to B with variations of height and length. B3 is exactly the mirrored pass. Image by Author.</em>
 
 2. *PlayersAnalogies*: an object that allows players analogies using analogies equations: Word A1 → Word A2 ~ Word B1 → Word B2. <a href="https://towardsdatascience.com/a-deep-dive-into-the-language-of-football-2a2984b6bd21#b8ab">Read more here </a>.<br>Examples:
-[!Players analogies]<img src="https://miro.medium.com/max/2000/1*Pbh5EWpdrXRUwLWSHbHaDw.png">
+<img alt="Players analogies" src="https://miro.medium.com/max/2000/1*Pbh5EWpdrXRUwLWSHbHaDw.png">
 <em>Illustrative players analogies plots. In each figure, B values are the top players to fit the analogy equation: A - A’ + B’ =?. Solid lines represent A and B, while dashed lines represent A’ and B’. Green colors are for A, A’, reds for B, B’.</em>
 
 3. *PlayerSkillsExplainer*: an object that allows combining players with actions, generating endless local variations 

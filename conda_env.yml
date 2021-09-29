@@ -1,12 +1,3 @@
-"""
-Created on September 5 2021
-
-Conda config file of football2vec. You can create a suitable environment for this project by running:
-'conda env create -f conda_env.yml' in a terminal/cmd window, and the file in current directory.
-
-@author: Ofir Magdaci (@Magdaci)
-
-"""
 name: football2vec
 channels:
   - conda-forge
