@@ -1,7 +1,8 @@
 """
 Created on September 5 2021
 
-This module covers skill analysis figures presented in "TBA", posted on Towards Data Science.
+This module covers skill analysis figures presented in Data-Driven Evaluation of Football Players' Skills,
+posted on Towards Data Science.
 
 @author: Ofir Magdaci (@Magdaci)
 
@@ -120,17 +121,21 @@ def radar_chart_w_baselines(players_metrics: pd.DataFrame, player_name: str, bas
         return fig
 
 
+plotly_export = True
+save_artifacts = False
+
 if __name__ == '__main__':
     os.chdir('../')
-    events_df = get_enriched_events_data(verbose=True, save_artifacts=True)
+    events_df = get_enriched_events_data(verbose=True, save_artifacts=save_artifacts)
     matches_metadata = load_matches_metadata(verbose=True)
-    players_metrics_df, baselines = get_players_metrics_df(events_df, matches_metadata, save_artifacts=True,
+    players_metrics_df, baselines = get_players_metrics_df(events_df, matches_metadata, save_artifacts=save_artifacts,
                                                            min_actions_count=30, min_subactions_count=10,
                                                            verbose=True)
     all_baselines = ANALYSIS_PARAMS.BASELINES_TO_USE[COLUMNS.COMPETITION_NAME] + ANALYSIS_PARAMS.BASELINES_TO_USE[
         COLUMNS.POSITION]
     radar_chart_w_baselines(players_metrics_df, PLAYERS.NEYMAR, baselines, baselines_to_use=all_baselines,
-                            plotly_export=True)
+                            plotly_export=plotly_export)
     radar_chart_w_baselines(players_metrics_df, PLAYERS.MESSI, baselines, baselines_to_use=all_baselines,
-                            plotly_export=True)
-    fig, players_stats = skill_comparison_analysis(players_metrics_df, events_df, plotly_export=True, show=True)
+                            plotly_export=plotly_export)
+    fig, players_stats = skill_comparison_analysis(players_metrics_df, events_df, plotly_export=plotly_export,
+                                                   show=True)

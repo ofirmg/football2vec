@@ -2,15 +2,10 @@
 <img alt="open-source" src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103">
 <img alt="Football2Vec" src="https://pbs.twimg.com/profile_banners/57356687/1630479357">
 
-<img alt="Number of files" src="https://img.shields.io/github/directory-file-count/ofirmg/football2vec">
-<img alt="pip status" src="https://img.shields.io/pypi/status/football2vec">
-<img alt="pip release" src="https://img.shields.io/pypi/v/football2vec">
-<img alt="latest release" src="https://img.shields.io/github/v/release/ofirmg/football2vec">
-
 This football analytics package is based on a series of <a href="https://medium.com/@ofirmagdaci">Towards Data Science articles</a> by <a href="www.magdaci.com">Ofir Magdaci:</a>
 1. <a href="https://towardsdatascience.com/embedding-the-language-of-football-using-nlp-e52dc153afa6">Embedding the Language of Football Using NLP</a> 
 2. <a href="https://towardsdatascience.com/a-deep-dive-into-the-language-of-football-2a2984b6bd21?">A Deep Dive into the Language of Football</a>
-3. <a href="">TBA</a>
+3. <a href="">Data-Driven Evaluation of Football Players' Skills</a>
 
 Using this package, you can to download pre-trained models or run and create your own.
 

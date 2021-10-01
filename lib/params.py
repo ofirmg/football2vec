@@ -165,7 +165,7 @@ class COLUMNS:
     SHOOTING = 'shooting'
     TEAM_MANAGERS = 'team_managers'
     TEAM_GENDER = 'team_gender'
-    ONE_ON_ONE = 'one_one_one'
+    ONE_ON_ONE = 'one_on_one'
     COUNTRY_NAME = 'country_name'
     POSSESSION = 'possession'
     HEADER = 'header_shot'
