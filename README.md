@@ -5,7 +5,7 @@
 This football analytics package is based on a series of <a href="https://medium.com/@ofirmagdaci">Towards Data Science articles</a> by <a href="www.magdaci.com">Ofir Magdaci:</a>
 1. <a href="https://towardsdatascience.com/embedding-the-language-of-football-using-nlp-e52dc153afa6">Embedding the Language of Football Using NLP</a> 
 2. <a href="https://towardsdatascience.com/a-deep-dive-into-the-language-of-football-2a2984b6bd21?">A Deep Dive into the Language of Football</a>
-3. <a href="">Data-Driven Evaluation of Football Players' Skills</a>
+3. <a href="https://towardsdatascience.com/data-driven-evaluation-of-football-players-skills-c1df36d61a4e">Data-Driven Evaluation of Football Players' Skills</a>
 
 Using this package, you can to download pre-trained models or run and create your own.
 
@@ -25,7 +25,7 @@ manually (see under 'Manual Run'). Alternatively, pre-trained models are availab
 Data objects currently are not available for download due to licensing.<br>
 
 #### Download the pre-trained package
-You can get a pre-made models by downloading the <a href="">pre-trained package</a>. Extract it and put the `models_artifacts` folder into football2vec/artifacts directory.
+You can get a pre-made models by downloading the <a href="">pre-trained package</a> (TBA October 2021). Extract it and put the `models_artifacts` folder into football2vec/artifacts directory.
 This package includes all pre-trained models.<br>
 Due to StatsBomb licensing, I can't offer pre-made data processing artifacts (see 'build_data_objects' under 'Manual Run').
 

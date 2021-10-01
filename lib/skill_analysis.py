@@ -121,7 +121,7 @@ def radar_chart_w_baselines(players_metrics: pd.DataFrame, player_name: str, bas
         return fig
 
 
-plotly_export = True
+plotly_export = False
 save_artifacts = False
 
 if __name__ == '__main__':
